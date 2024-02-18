@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { reverseString } from './stringReverse';
+import { reverseString } from './method/stringReverse';
 
 describe('字串反轉', () => {
   it('當輸入 "hello" 時，應該回傳 "olleh"', () => {
